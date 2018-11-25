@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pentry.application", "pentr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pentry.api.tests", "pentry.api.tests\pentry.api.tests.csproj", "{7B6D8E92-9615-431B-9AF7-71EA54A4073A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pentry.domain.tests", "pentry.domain.tests\pentry.domain.tests.csproj", "{B83B80F3-BB4D-4E5C-AE22-A61CB6CA61B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7B6D8E92-9615-431B-9AF7-71EA54A4073A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B6D8E92-9615-431B-9AF7-71EA54A4073A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B6D8E92-9615-431B-9AF7-71EA54A4073A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83B80F3-BB4D-4E5C-AE22-A61CB6CA61B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83B80F3-BB4D-4E5C-AE22-A61CB6CA61B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83B80F3-BB4D-4E5C-AE22-A61CB6CA61B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83B80F3-BB4D-4E5C-AE22-A61CB6CA61B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
