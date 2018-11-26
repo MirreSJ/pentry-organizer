@@ -4,9 +4,9 @@ using System.Text;
 
 namespace pentry.domain
 {
-    public interface IItem
+    public class Item : IItem
     {
-        Guid Id { get; }
-        string Name { get; }
+        public Guid Id { get; set; }
+        public string Name { get; set; }
     }
 }

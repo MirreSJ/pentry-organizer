@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿using FluentAssertions;
 using NUnit.Framework;
-using FluentAssertions;
+using System;
 namespace pentry.domain.tests
 {
     [TestFixture]
@@ -15,9 +12,9 @@ namespace pentry.domain.tests
         {
             var dateTime = new DateTime(2017, 1, 1, 22, 12, 33);
             var date = new Date(dateTime);
-            
+
             DateTime implicitDateTime = date;
-            
+
             implicitDateTime.Year.Should().Be(dateTime.Year);
         }
 
@@ -29,7 +26,7 @@ namespace pentry.domain.tests
             var date = new Date(dateTime);
 
             DateTime implicitDateTime = date;
-            
+
             implicitDateTime.Month.Should().Be(dateTime.Month);
         }
 
@@ -41,7 +38,7 @@ namespace pentry.domain.tests
             var date = new Date(dateTime);
 
             DateTime implicitDateTime = date;
-            
+
             implicitDateTime.Day.Should().Be(dateTime.Day);
         }
 
@@ -53,7 +50,7 @@ namespace pentry.domain.tests
             var date = new Date(dateTime);
 
             DateTime implicitDateTime = date;
-            
+
             implicitDateTime.Hour.Should().Be(0);
         }
 
@@ -65,7 +62,7 @@ namespace pentry.domain.tests
             var date = new Date(dateTime);
 
             DateTime implicitDateTime = date;
-            
+
             implicitDateTime.Minute.Should().Be(0);
         }
 
@@ -76,7 +73,7 @@ namespace pentry.domain.tests
             var date = new Date(dateTime);
 
             DateTime implicitDateTime = date;
-            
+
             implicitDateTime.Second.Should().Be(0);
         }
 
