@@ -2,7 +2,7 @@ FROM trion/ng-cli-karma:7.1.0 as test
 WORKDIR /src
 COPY ./src /src
 RUN yarn install --silent
-#RUN yarn test --watch false
+RUN yarn test --watch false
 
 FROM test as build
 WORKDIR /src
