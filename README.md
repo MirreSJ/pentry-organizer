@@ -7,10 +7,4 @@ Keeping track of your pentry-stocks.
 ## Frontend
 [![Build status](https://dev.azure.com/mirre/pentry-organizer/_apis/build/status/pentry-organizer-fe)](https://dev.azure.com/mirre/pentry-organizer/_build/latest?definitionId=10)
 
-| ndl  	|     	|   	|   	|   	|
-|------	|-----	|---	|---	|---	|
-| 0170 	| 12  	|   	|   	|   	|
-| 9986 	| 200 	|   	|   	|   	|
-|      	|     	|   	|   	|   	|
-
 
